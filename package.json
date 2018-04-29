@@ -1,0 +1,22 @@
+{
+  "name": "booksvc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "npm update && nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "crypto": "^1.0.1",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.2.1",
+    "machine_learning": "^0.1.1",
+    "mongoose": "^5.0.16",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0"
+  }
+}
